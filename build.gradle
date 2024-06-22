@@ -16,15 +16,13 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform()
+    // Show standard output and error output from tests
     testLogging {
         events "passed", "skipped", "failed"
-        exceptionFormat "full"
-        showCauses true
-        showExceptions true
-        showStackTraces true
+        showStandardStreams = true
     }
 }
+
 
 application {
     mainClass = 'App'
