@@ -1,4 +1,5 @@
 # Demoblaze Karate Project
+[![CI](https://github.com/andresgranizo/karateChallenge/actions/workflows/ci.yml/badge.svg)](https://github.com/andresgranizo/karateChallenge/actions/workflows/ci.yml)
 
 This project is a test automation framework using [Karate](https://github.com/intuit/karate) and Gradle to test the signup and login functionalities of the Demoblaze API.
 
@@ -75,7 +76,7 @@ gradle -version
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone (https://github.com/andresgranizo/karateChallenge.git)
 cd demoblaze-karate
  ```
 
